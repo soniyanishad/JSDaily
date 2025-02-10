@@ -1,0 +1,72 @@
+//  //var num;
+//  num=20;
+//  console.log(num);
+//  var num;
+
+//  num1=50;
+//  console.log(num1);
+//  let num1;
+
+ //arithmatic operators %, -,+,/,*  
+
+ console.log("Hello");
+
+ let a=20;
+ let b=16;
+ let res=a+b;
+ console.log(res);
+
+ //modulus
+ let c=20;
+ let d=20;
+ let res1=c%d;
+ console.log(res1);
+
+ let e=20;
+ let f=16;
+ let res2= e==f;
+ console.log(res2);
+
+ let x=20;
+ let y="20";
+ let res3= y===x;
+ console.log(res3);
+
+ //strict equality operator
+ let x1=20;
+ let y1=true;
+ let res4= y1===x1;
+ console.log(res4);
+
+// not equals to operator
+ let x2=20;
+ let y2=true;
+ let res5= y2!=x2;
+ console.log(res5);
+
+ let x3=20;
+ let y3=20;
+ let res6= y3!==x3; //one condition is true then it result true
+ console.log(res6);
+
+
+ let x4=20;
+ let y4=50;
+ let res7= y4>=x4; // one condition is true then it is true
+ console.log(res7);
+
+ let n=40;
+ n += 3;
+ console.log(n);
+
+
+
+let m=2;
+let p=5;
+console.log(m+p);
+
+
+let n1=4567;
+let rs= Math.floor(n1/1000);
+console.log(rs);
+
