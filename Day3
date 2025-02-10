@@ -1,0 +1,61 @@
+//incfement decrement operators(a++,++a,a--,--a)
+
+console.log("Hello");
+
+// let a=20;
+// console.log(a++,a); //post increment
+
+// let b=23;
+// console.log(++b,b);
+
+
+let c = 20;
+console.log(++c, c, c++, ++c, c, c++, c++, ++c, ++c );
+//21,21,21,23,23,23,24,26,27
+
+let d=20;
+console.log(d--, d, --d, --d, d--, d, d, d, --d,d--,d--);
+//20,19,18,17,17,16,16,16,15,15,14
+
+let e=20;
+console.log(++e, e, --e, e --,e--, e,e, e--,e++,++e,++e,e++,--e);
+// 21 21 20 20 19 18 18 18 17 19 20 20 20
+
+//logical operators(&&,||,!)
+
+
+let x=20;
+let y="20";
+
+//console.log( x>y && y<x);
+//console.log(x===y && y===x);
+
+//console.log( x!=y && y!=x);
+
+let x1=20;
+let y1="20";
+
+console.log( x1!==y1 && y1==x1);
+
+
+let x2=20;
+let y2="20";
+
+console.log( x2===y2 || y2==x2);
+
+
+console.log(!true);
+
+/// condition or ternary operators
+
+console.log(( 5 === 5 ) ? 'a' : 'b');
+
+
+
+
+
+
+
+
+
+
